@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+
+// front
+$font-1 :'Oswald', serif;
+$font-2: 'Roboto+Condensed', sans-serif;
+
+// colors
+$color-1: #2CCED2;
+$color-2: #76CDCD;
+$color-3: #26474E;
+$color-4: #F27438;
+$color-5: #F9968B;
+
+$white: #ddd;
+$black: #333;
+
+// settings
+$border-radius: 20px;
+$shadow: 0 2px 3px #333;
+$min-height: 93vh;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 15px auto;
+    max-width: 1250px;
+    font-family: $font-1;
+    color: $black;
+}
+
+button {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+    cursor: pointer;
+}
+
+a:visited {
+    color: $black;
+}
+
+.home, .skill, .portfolio, .contact {
+    display: flex;
+
+        // media quiery
+    @media screen and (max-width: 850px) {
+        display: block !important;
+    }
+}
+
+.homeContent, .skillContent, .portfolioContent, .contactContent {
+    margin-left: 50px;
+
+    @media screen and (max-width: 850px) {
+        margin-left: 0 !important
+    }
+}
+
+// mixin
+@mixin verticalCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
