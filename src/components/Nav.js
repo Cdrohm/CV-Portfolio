@@ -6,8 +6,8 @@ const Nav = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    {/* profil picture */}
-                    <img src="././media/profil.jpg" alt="profil-img" />
+                    {/* profil*/}
+                    <img src="../media/profil.jpg" alt="profil-img" />
                     <h3>Clément THERAUD</h3>
                     <h4>Développeur FRONT-END</h4>
                 </div>
@@ -44,7 +44,7 @@ const Nav = () => {
             </div>
 
             {/* social network */}
-            <div className='socialNetwork'>
+            <div className="socialNetwork">
                 <ul>
                     <li>
                         <a href="http://www.linkedin.com/in/clement-theraud" target="_blank" rel="noopener noreferrer"> 
