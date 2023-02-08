@@ -2,7 +2,7 @@
   "name": "cvportfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://Cdrohm.github.io/CV-Portfolio/",
+  "homepage": "https://cdrohm.github.io/CV-Portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
