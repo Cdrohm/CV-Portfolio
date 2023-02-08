@@ -87,7 +87,7 @@ export const portfolioData = [
         languagesIcons: ['fab fa-html5', 'fab fa-css3-alt', 'fab fa-js'],
         source: 'https://github.com/Cdrohm/Billed',
         info: 'Correction de différents problèmes sur une application interne concernant les notes de frais d employé, création de pages tickets, classement. Une partie accessible aux employés permettant de créer et de suivre les demandes de remboursements de frais, partie administrateur RH permettant de visualiser les demandes en cours, de les valider ou les rejeter. Descriptions des pratiques, tests E2E, Jest. ',
-        picture: '.././media/billed.jpg'
+        picture: './media/billed.jpg'
     },
 
     {
