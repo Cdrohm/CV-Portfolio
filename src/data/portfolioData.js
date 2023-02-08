@@ -17,7 +17,7 @@ export const portfolioData = [
         languagesIcons: ['fab fa-html5', 'fab fa-css3-alt'],
         source: 'https://cdrohm.github.io/',
         info: 'Intégration d une maquette, dynamisation d une page web avec des animations CSS avec utilisation du processeur SASS. Permettre la réservation en ligne et la composition de menus. Site vitrine de restaurants, loader en chargement, pages dédiées comprenant les différents plats disponibles selon les restaurants.',
-        picture: './media/ohmyfood.jpg'
+        picture: '../../../public/media/ohmyfood.jpg'
     },
 
     {
@@ -27,7 +27,7 @@ export const portfolioData = [
         languagesIcons: ['fab fa-html5', 'fab fa-css3-alt', 'fab fa-js'],
         source: 'https://github.com/Cdrohm/GameOn-website-FR',
         info: 'Modification d une maquette, création d un formulaire de réservations à un évènement avec selections radios.',
-        picture: './media/gameon.jpg'
+        picture: '../../../public/media/gameon.jpg'
     }, 
     
     {
@@ -37,7 +37,7 @@ export const portfolioData = [
         languagesIcons: ['fab fa-html5', 'fab fa-css3-alt', 'fab fa-sass', 'fab fa-js'],
         source: 'https://github.com/Cdrohm/fisheye-front-end',
         info: 'Intégration d une maquette, site vitrine pour photographes. Page d accueil dynamique renvoyant vers chaque photographe. Page photographe comprenant photos et videos, un tri par 3 filtres. data en Json',
-        picture: './media/fisheyed.jpg'
+        picture: '../../../public/media/fisheyed.jpg'
     }, 
     
     {
@@ -47,7 +47,7 @@ export const portfolioData = [
         languagesIcons: ['fab fa-html5', 'fab fa-css3-alt', 'fab fa-sass', 'fab fa-js'],
         source: 'https://cdrohm.github.io/theraudclement_7_24022022/',
         info: 'Intégration d une maquettepour un site de recettes de cuisine. Tri par barre de recherche et caractères rentrés, 3 filtres cliquables',
-        picture: './media/lespetitsplats.jpg'
+        picture: '../../../public/media/lespetitsplats.jpg'
     }, 
 
     {
@@ -57,7 +57,7 @@ export const portfolioData = [
         languagesIcons: ['fab fa-html5', 'fab fa-css3-alt', 'fab fa-js', 'fab fa-react'],
         source: 'https://github.com/Cdrohm/sportsee',
         info: 'Application dédiée aux statistiques sportives, un dashboard retransmettant les activités sportives pour le profil selectionné, comprenant des graphiques recharts. Utilisation de Docker pour les données, Axios pour les requêtes.',
-        picture: './media/sportsee.jpg'
+        picture: '../../../public/media/sportsee.jpg'
     }, 
 
     {
@@ -107,7 +107,7 @@ export const portfolioData = [
         languagesIcons: ['fab fa-html5', 'fab fa-css3-alt', 'fab fa-js', 'fab fa-react'],
         source: 'https://github.com/Cdrohm/wealth_health',
         info: 'Application interne de ressources humaines. Conversion HRNet vers React Js, conversion des plugins jQuery en composant React. Upload d un menu a plusieurs selecteur en package npm. Test de perfomance Lighthouse. ',
-        picture: '../media/wealthhealth.jpg'
+        picture: './media/wealthhealth.jpg'
     },
 
     {
@@ -117,6 +117,6 @@ export const portfolioData = [
         languagesIcons: ['fab fa-figma'],
         source: 'https://www.figma.com/proto/QQVXDSOBQZCMlNl6ZsptVj/Untitled?scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&node-id=10%3A2',
         info: 'Projet d application pour artisan, maquette basique de presenation, work in progress',
-        picture: '../media/solopan.jpg'
+        picture: './media/solopan.jpg'
     },
 ]
