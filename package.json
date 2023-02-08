@@ -2,7 +2,7 @@
   "name": "cv_portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://cdrohm.github.io/CV-Portfolio",
+  "homepage": "https://Cdrohm.github.io/CV-Portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
@@ -19,12 +19,12 @@
     "sass": "^1.56.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

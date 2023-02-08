@@ -109,4 +109,14 @@ export const portfolioData = [
         info: 'Application interne de ressources humaines. Conversion HRNet vers React Js, conversion des plugins jQuery en composant React. Upload d un menu a plusieurs selecteur en package npm. Test de perfomance Lighthouse. ',
         picture: './media/wealthhealth.jpg'
     },
+
+    {
+        id: 13,
+        name: 'Solopan',
+        languages: ['figma'],
+        languagesIcons: ['fab fa-figma'],
+        source: 'https://www.figma.com/proto/QQVXDSOBQZCMlNl6ZsptVj/Untitled?scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&node-id=10%3A2',
+        info: 'Projet d application pour artisan, maquette basique de presenation, work in progress',
+        picture: './media/solopan.jpg'
+    },
 ]
