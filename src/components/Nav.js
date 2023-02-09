@@ -7,7 +7,7 @@ const Nav = () => {
             <div className="id">
                 <div className="idContent">
                     {/* profil*/}
-                    <img src="../media/profil.jpg" alt="profil-img" />
+                    <img src="./media/profil.jpg" alt="profil-img" />
                     <h3>Clément THERAUD</h3>
                     <h4>Développeur FRONT-END</h4>
                 </div>
